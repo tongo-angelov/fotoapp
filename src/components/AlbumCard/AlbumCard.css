@@ -1,0 +1,28 @@
+.album-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    margin: 10px 20px;
+    background-color: #323232;
+    padding: 10px
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.image {
+    background-color: #656565;
+    width: 150px;
+    height: 200px;
+}
+
+.album-card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
